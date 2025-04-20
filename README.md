@@ -173,7 +173,7 @@ This guide covers the full Terraform workflow to provision a **scalable Virtual 
     priority    = 150
     direction   = "Inbound"
     access      = "Allow"
-    protocol    = "Tcp" # lowercase to avoid plan errors
+    protocol    = "Tcp" 
     source_address_prefix = "*"
     destination_address_prefix = "*"
     source_port_range     = "*"
