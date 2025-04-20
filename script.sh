@@ -27,4 +27,4 @@ terraform import azurerm_lb_rule.http /subscriptions/<subscription_id>/resourceG
 terraform import azurerm_linux_virtual_machine_scale_set.vmss /subscriptions/<subscription_id>/resourceGroups/vmssapp-dev-rg/providers/Microsoft.Compute/virtualMachineScaleSets/vmssapp-vmss
 
 
-terraform import azurerm_monitor_autoscale_setting.vmss_autoscale "/subscriptions/dd0d39bb-8c46-4a75-83e5-cd5f1dd6f45b/resourceGroups/vmssapp-dev-rg/providers/Microsoft.Insights/autoScaleSettings/vmssapp-autoscale"
+terraform import azurerm_monitor_autoscale_setting.vmss_autoscale /subscriptions/<subscription_id>/resourceGroups/vmssapp-dev-rg/providers/Microsoft.Insights/autoScaleSettings/vmssapp-autoscale
